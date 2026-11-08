@@ -1,0 +1,94 @@
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background: #E5C287;
+
+}
+ 
+/* Header */
+header {
+  color: #333333;
+  padding: 40px 20px;
+  text-align: center;
+}
+ 
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+ 
+/* Navigation */
+#menu {
+  background: #E5E7EB;
+}
+ 
+#menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+ 
+#menu a {
+  display: block;
+  padding: 14px 20px;
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 5px solid transparent;
+
+}
+ 
+#menu a:hover {
+	border-bottom-color: #333333;
+}
+
+
+/* Main page content contained in the box class */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+ 
+.box {
+  background: #E5E7EB;
+  border: 6px solid #333333;
+  border-radius: 10px;
+  padding: 28px 32px;
+  margin-bottom: 40px;
+
+}
+ 
+.box h2 {
+  color:#333333;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid;
+  display: inline-block;
+}
+
+/* My photo */
+.box img {
+  display: block;
+  width: 160px;
+  height: 180px;
+  object-fit: cover;
+  margin: 8px 0 20px;
+}
+ 
+
+/* Footer */
+footer {
+  background: #E5E7EB;
+  text-align: center;
+  color: #333333;
+  font-size: 0.9rem;
+  padding: 5px 20px;
+  
+}

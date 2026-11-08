@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #fdf2f8;
+  background-image: url("../images/bg.svg");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  background-position: top left;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #6b21a8;
+
+}
+
+/* Navigation (Reused some of the same type of assets from the index page*/
+#menu {
+  background: #fdf2f8;
+}
+ 
+#menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+ 
+#menu a {
+  display: block;
+  padding: 14px 20px;
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 5px solid transparent;
+
+}
+#menu a:hover {
+	border-bottom-color: #333333;
+}
+#menu a:focus {
+	border-bottom-color: #333333;
+}
+
+
+ 
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+main > section {
+  background-color: #ffffff;
+  border: 2px solid #6b21a8;
+  padding: 20px;
+}
+
+#main-text {
+  flex: 1 1 400px;
+}
+
+h2 {
+  color: #6b21a8;
+}
+
+
+.song-list {
+  list-style-type: circle;
+}
+
+iframe {
+  max-width: 100%;
+  border: 3px solid #ec4899;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  padding: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #6b21a8;
+}
+
+thead th {
+  color: #ffffff;
+  background-color: #6b21a8;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #f3e8ff;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #fce7f3;
+}
+
+#site-footer {
+  padding: 15px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #6b21a8;
+
+}

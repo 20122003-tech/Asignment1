@@ -1,0 +1,153 @@
+/* Generated with Claude (AI). Prompt: "I need elements of css file similar to the other css pages, such as color's , links and 
+   layout", for my games page.
+   Based on my style2.css. Adapted by me: as colors were copied from style2 I updated the colors to match the astethic of my
+   favourite games . */
+	
+/* Majorly copied from style2.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ece8e1;
+  background-color: #0f1923;
+}
+ 
+header {
+  padding: 20px;
+  text-align: center;
+  color: #fcee0a;
+  background-color: #0b1118;
+
+}
+ 
+header h1 {
+  letter-spacing: 2px;
+}
+ 
+#menu {
+  background: #0b1118;
+}
+ 
+#menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+ 
+#menu a {
+  display: block;
+  padding: 14px 20px;
+  color: #ece8e1;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 5px solid transparent;
+}
+ 
+#menu a:hover {
+  border-bottom-color: #ff4655;
+}
+ 
+#menu a:focus {
+  border-bottom-color: #00f0ff;
+}
+ 
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+ 
+main > section {
+  background-color: #1a2430;
+  border: 2px solid #ff4655;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
+}
+ 
+#main-text {
+  flex: 1 1 400px;
+}
+ 
+h2 {
+  color: #ece8e1;
+  border-bottom: 3px solid #ff4655;
+  padding-bottom: 6px;
+}
+ 
+/* Each game gets its own game colour (1 = top3, 2 = Valorant, 3 = Cyberpunk, 4 = Dishonored) */
+#main-text h2:nth-of-type(1) {
+  border-bottom-color: #ece8e1;
+}
+ 
+#main-text h2:nth-of-type(3) {
+  border-bottom-color: #fcee0a;
+}
+ 
+#main-text h2:nth-of-type(4) {
+  border-bottom-color: #6fa8a0;
+}
+ 
+#main-text ul {
+  list-style-type: square;
+}
+ 
+a:link {
+  color: #00f0ff;
+}
+ 
+a:visited {
+  color: #6fa8a0;
+}
+ 
+a:hover {
+  color: #fcee0a;
+}
+ 
+a:active {
+  color: #ff4655;
+}
+ 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+caption {
+  padding: 8px;
+  font-weight: bold;
+  text-align: left;
+  color: #fcee0a;
+}
+ 
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #3a4a5a;
+}
+ 
+thead th {
+  color: #0f1923;
+  background-color: #ff4655;
+}
+ 
+tbody tr:nth-of-type(odd) {
+  background-color: #1a2430;
+}
+ 
+tbody tr:nth-of-type(even) {
+  background-color: #243242;
+}
+
+#site-footer {
+  padding: 15px;
+  text-align: center;
+  color: #ece8e1;
+  background-color: #0b1118;
+
+}
